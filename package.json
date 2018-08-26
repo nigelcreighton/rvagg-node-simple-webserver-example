@@ -1,20 +1,20 @@
 {
-  "name": "node-mqsql-crud-app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "ejs": "^2.6.1",
-    "express": "^4.16.3",
-    "express-fileupload": "^0.4.0",
-    "mysql": "^2.15.0",
-    "req-flash": "0.0.3"
-  }
+    "name"         : "simple-webserver-example"
+  , "version"      : "0.0.0"
+  , "description"  : "A simple functional example webserver for Node.js"
+  , "main"         : "index.js"
+  , "dependencies" : {
+        "swig"  : "~0.13.5"
+      , "after" : "~0.7.0"
+      , "st"    : "~0.1.2"
+    }
+  , "repository": {
+        "type": "git"
+      , "url": "git://github.com/rvagg/node-simple-webserver-example.git"
+    }
+  , "authors"         : [
+        "Rod Vagg <rod@vagg.org> (https://github.com/rvagg)"
+    ]
+  , "license": "MIT"
+  , "private": true
 }
