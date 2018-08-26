@@ -3,6 +3,10 @@
   , "version"      : "0.0.0"
   , "description"  : "A simple functional example webserver for Node.js"
   , "main"         : "index.js"
+  ,"scripts": {
+     "start": "node index.js"
+     }
+
   , "dependencies" : {
         "swig"  : "~0.13.5"
       , "after" : "~0.7.0"
